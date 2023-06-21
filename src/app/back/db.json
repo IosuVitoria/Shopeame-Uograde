@@ -1,0 +1,150 @@
+{   
+    "productos": [
+    {
+        "id": 1,
+        "tipo": "Camiseta",
+        "precio": 19.99,
+        "color": "Rojo",
+        "marca": "Nike",
+        "imagen": "https://ejemplo.com/imagenes/camiseta_roja.jpg",
+        "enlace_amazon": "https://www.amazon.com/camiseta-roja-nike"
+    },
+    {
+        "id": 2,
+        "tipo": "Pantalón",
+        "precio": 39.99,
+        "color": "Azul",
+        "marca": "Adidas",
+        "imagen": "https://ejemplo.com/imagenes/pantalon_azul.jpg",
+        "enlace_amazon": "https://www.amazon.com/pantalon-azul-adidas"
+    },
+    {
+        "id": 3,
+        "tipo": "Zapatos",
+        "precio": 89.99,
+        "color": "Negro",
+        "marca": "Puma",
+        "imagen": "https://ejemplo.com/imagenes/zapatos_negros.jpg",
+        "enlace_amazon": "https://www.amazon.com/zapatos-negros-puma"
+    },
+    {
+        "id": 4,
+        "tipo": "Vestido",
+        "precio": 59.99,
+        "color": "Blanco",
+        "marca": "H&M",
+        "imagen": "https://ejemplo.com/imagenes/vestido_blanco.jpg",
+        "enlace_amazon": "https://www.amazon.com/vestido-blanco-hm"
+    },
+    {
+        "id": 5,
+        "tipo": "Camisa",
+        "precio": 29.99,
+        "color": "Verde",
+        "marca": "Tommy Hilfiger",
+        "imagen": "https://ejemplo.com/imagenes/camisa_verde.jpg",
+        "enlace_amazon": "https://www.amazon.com/camisa-verde-tommy-hilfiger"
+    },
+    {
+        "id": 6,
+        "tipo": "Shorts",
+        "precio": 24.99,
+        "color": "Negro",
+        "marca": "Under Armour",
+        "imagen": "https://ejemplo.com/imagenes/shorts_negros.jpg",
+        "enlace_amazon": "https://www.amazon.com/shorts-negros-under-armour"
+    },
+    {
+        "id": 7,
+        "tipo": "Sudadera",
+        "precio": 49.99,
+        "color": "Gris",
+        "marca": "Champion",
+        "imagen": "https://ejemplo.com/imagenes/sudadera_gris.jpg",
+        "enlace_amazon": "https://www.amazon.com/sudadera-gris-champion"
+    },
+    {
+        "id": 8,
+        "tipo": "Zapatillas",
+        "precio": 109.99,
+        "color": "Blanco",
+        "marca": "Reebok",
+        "imagen": "https://ejemplo.com/imagenes/zapatillas_blancas.jpg",
+        "enlace_amazon": "https://www.amazon.com/zapatillas-blancas-reebok"
+    },
+    {
+        "id": 9,
+        "tipo": "Blusa",
+        "precio": 34.99,
+        "color": "Amarillo",
+        "marca": "Zara",
+        "imagen": "https://ejemplo.com/imagenes/blusa_amarilla.jpg",
+        "enlace_amazon": "https://www.amazon.com/blusa-amarilla-zara"
+    },
+    {
+        "id": 10,
+        "tipo": "Jeans",
+        "precio": 59.99,
+        "color": "Negro",
+        "marca": "Levi's",
+        "imagen": "https://ejemplo.com/imagenes/jeans_negros.jpg",
+        "enlace_amazon": "https://www.amazon.com/jeans-negros-levis"
+    },
+    {
+        "id": 11,
+        "tipo": "Zapatos deportivos",
+        "precio": 79.99,
+        "color": "Azul",
+        "marca": "New Balance",
+        "imagen": "https://ejemplo.com/imagenes/zapatos_azules.jpg",
+        "enlace_amazon": "https://www.amazon.com/zapatos-azules-new-balance"
+    },
+    {
+        "id": 12,
+        "tipo": "Falda",
+        "precio": 39.99,
+        "color": "Rosado",
+        "marca": "Forever 21",
+        "imagen": "https://ejemplo.com/imagenes/falda_rosada.jpg",
+        "enlace_amazon": "https://www.amazon.com/falda-rosada-forever-21"
+    },
+    {
+        "id": 13,
+        "tipo": "Chaqueta",
+        "precio": 79.99,
+        "color": "Negro",
+        "marca": "The North Face",
+        "imagen": "https://ejemplo.com/imagenes/chaqueta_negra.jpg",
+        "enlace_amazon": "https://www.amazon.com/chaqueta-negra-the-north-face"
+    },
+    {
+        "id": 14,
+        "tipo": "Vestido de noche",
+        "precio": 129.99,
+        "color": "Rojo",
+        "marca": "Ralph Lauren",
+        "imagen": "https://ejemplo.com/imagenes/vestido_rojo.jpg",
+        "enlace_amazon": "https://www.amazon.com/vestido-rojo-ralph-lauren"
+    },
+    {
+        "id": 15,
+        "tipo": "Sandalias",
+        "precio": 49.99,
+        "color": "Marrón",
+        "marca": "Birkenstock",
+        "imagen": "https://ejemplo.com/imagenes/sandalias_marrones.jpg",
+        "enlace_amazon": "https://www.amazon.com/sandalias-marrones-birkenstock"
+    },
+    {
+        "id": 16,
+        "tipo": "Suéter",
+        "precio": 54.99,
+        "color": "Gris",
+        "marca": "Gap",
+        "imagen": "https://ejemplo.com/imagenes/sueter_gris.jpg",
+        "enlace_amazon": "https://www.amazon.com/sueter-gris-gap"
+    }
+    ]
+}
+      
+   
