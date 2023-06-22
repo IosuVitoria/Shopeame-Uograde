@@ -5,7 +5,7 @@ import { ListadoComponent } from './pages/listado/listado.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { DetalleComponent } from './pages/listado/detalle/detalle.component';
 import { NuevoProductoComponent } from './pages/nuevo-producto/nuevo-producto.component';
-
+import { ModificarProductoComponent } from './pages/modificarproducto/modificarproducto.component';
 
 
 const routes: Routes = [
@@ -13,7 +13,8 @@ const routes: Routes = [
   {path:"listado", component: ListadoComponent},
   {path:"contacto", component: ContactoComponent},
   {path:"listado/:id", component: DetalleComponent},
-  {path: "nuevoproducto", component: NuevoProductoComponent}
+  {path: "nuevoproducto", component: NuevoProductoComponent},
+  {path: "modificarproducto/:id", component: ModificarProductoComponent}
 ];
 
 @NgModule({

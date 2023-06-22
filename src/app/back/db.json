@@ -1,13 +1,12 @@
 {
   "productos": [
     {
-      "id": 5,
+      "nombre": "Camisa elegante",
+      "marca": "Tommy Hilfiger",
       "tipo": "Camisa",
       "precio": 29.99,
-      "color": "Verde",
-      "marca": "Tommy Hilfiger",
       "imagen": "https://ejemplo.com/imagenes/camisa_verde.jpg",
-      "enlace_amazon": "https://www.amazon.com/camisa-verde-tommy-hilfiger"
+      "id": 5
     },
     {
       "id": 6,
@@ -19,13 +18,12 @@
       "enlace_amazon": "https://www.amazon.com/shorts-negros-under-armour"
     },
     {
-      "id": 7,
+      "nombre": "Sudadera deportiva",
+      "marca": "Nike",
       "tipo": "Sudadera",
       "precio": 49.99,
-      "color": "Gris",
-      "marca": "Champion",
       "imagen": "https://ejemplo.com/imagenes/sudadera_gris.jpg",
-      "enlace_amazon": "https://www.amazon.com/sudadera-gris-champion"
+      "id": 7
     },
     {
       "id": 8,
