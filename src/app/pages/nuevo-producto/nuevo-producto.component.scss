@@ -30,6 +30,7 @@
   
       .form-group {
         margin-bottom: 20px;
+        width: 96%;
   
         .form-label {
           display: block;
@@ -58,7 +59,7 @@
         font-size: 16px;
         font-weight: bold;
         text-align: center;
-        background-color: #003366;
+        ackground: linear-gradient(to bottom right, #99ccff, #003366);
         color: #fff;
         border: none;
         border-radius: 5px;
@@ -66,7 +67,7 @@
         transition: background-color 0.3s;
   
         &:hover {
-          background-color: #005599;
+          background: linear-gradient(to bottom right, #0055cc, #002244);
         }
       }
     }

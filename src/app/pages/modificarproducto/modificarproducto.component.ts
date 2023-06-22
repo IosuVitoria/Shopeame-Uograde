@@ -52,7 +52,6 @@ export class ModificarProductoComponent implements OnInit {
     const modifiedProduct = this.modifiedProductForm.value;
     this.updateProduct(modifiedProduct).subscribe(() => {
       console.log('Producto actualizado correctamente');
-      // Aquí puedes agregar alguna redirección o lógica adicional después de la actualización exitosa.
     });
   }
 
