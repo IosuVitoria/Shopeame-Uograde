@@ -1,8 +1,15 @@
-<h1>Product</h1>
-
-<div>
-<h4>{{product.marca}}</h4>
-<h4>{{product.tipo}}</h4>
-<h4>{{product.precio}}</h4>
-<img src="{{product.imagen}}" alt="{{product.marca}}">
+<div class="background">
+<div class="product-details">
+  <h2>{{product.nombre}}</h2>
+  <div class="product-image">
+    <img src="{{product.imagen}}" alt="{{product.marca}}">
+  </div>
+  <div class="product-info">
+    <h4>Marca: {{product.marca}}</h4>
+    <h4>Tipo: {{product.tipo}}</h4>
+    <h4>Precio: {{product.precio}}€</h4>
+    <p>{{product.descripcion}}</p>
+  </div>
+  <button class="back-button" routerLink="/listado">Volver</button>
+</div>
 </div>

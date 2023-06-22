@@ -19,4 +19,12 @@ export class ServiceComponent {
     return this.http.get(`${this.db_url}/${id}`)
   }
 
+  deleteProductById(id: number){
+    return this.http.delete(`${this.db_url}/${id}`)
+  }
+
+  postProduct(product: any){
+    return this.http.post(this.db_url, product)
+  }
+  
 }

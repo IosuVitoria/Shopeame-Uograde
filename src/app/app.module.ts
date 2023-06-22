@@ -9,6 +9,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { DetalleComponent } from './pages/listado/detalle/detalle.component';
+import { NuevoProductoComponent } from './pages/nuevo-producto/nuevo-producto.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -19,11 +22,16 @@ import { DetalleComponent } from './pages/listado/detalle/detalle.component';
     ListadoComponent,
     ContactoComponent,
     DetalleComponent,
+    NuevoProductoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
+  ],
+  exports: [
+    NuevoProductoComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,10 +1,17 @@
 <ul class="product-list">
-    <li *ngFor="let product of productList">
-      <h4>{{product.marca}}</h4>
-      <h4>{{product.tipo}}</h4>
-      <h4>{{product.precio}}</h4>
+  <li *ngFor="let product of productList">
+    <div class="product-container">
       <img src="{{product.imagen}}" alt="{{product.marca}}">
-      <button routerLink='/listado/{{product.id}}'> Ver más </button>
-      <button> Eliminar </button>
-    </li>
-  </ul>
+      <div class="product-info">
+        <h4>{{product.marca}}</h4>
+        <h4>{{product.tipo}}</h4>
+        <h4>{{product.nombre}}</h4>
+        <h4>{{product.precio}}€</h4>
+      </div>
+      <div class="button-container">
+        <button routerLink='/listado/{{product.id}}'>Ver más</button>
+        <button>Eliminar</button>
+      </div>
+    </div>
+  </li>
+</ul>

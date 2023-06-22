@@ -1,0 +1,42 @@
+nav {
+    background: linear-gradient(to right, #00264d, #3399ff);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+  
+    .logo {
+      height: 40px;
+      width: auto;
+      border-radius: 50%;
+      transition: transform 0.3s;
+  
+      &:hover {
+        transform: rotate(5deg);
+      }
+    }
+  
+    .nav-links {
+      display: flex;
+      align-items: center;
+  
+      .nav-link {
+        color: #ffffff;
+        text-decoration: none;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #001a33;
+        }
+      }
+    }
+  
+    &:hover {
+      background-color: #001a33;
+    }
+  }
+  

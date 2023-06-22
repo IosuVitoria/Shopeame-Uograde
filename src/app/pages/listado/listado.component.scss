@@ -1,0 +1,84 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #9999cc, #ffffff);
+    padding: 20px;
+  
+    li {
+      width: calc(33.33% - 20px);
+      height: 600px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+  
+      .product-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(to bottom right, #9999cc, #ffffff);
+        opacity: 0.9;
+  
+        img {
+          max-width: 50%;
+          max-height: 50%;
+          object-fit: contain;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+  
+        .product-info {
+          text-align: center;
+          margin-top: 10px;
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+        }
+  
+        .button-container {
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          margin-top: auto;
+          width: 100%;
+  
+          button {
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            margin-top: 10px;
+            width: 80%;
+            max-width: 150px;
+            border-radius: 5px;
+            margin-right: 5px;
+            transition: all 0.3s ease;
+            background: linear-gradient(to bottom right, #9999cc, #ffffff);
+  
+            &:hover {
+              background-color: #003366;
+              color: #fff;
+              transform: scale(1.25);
+              background: linear-gradient(to bottom right, #003366, #005599);
+            }
+          }
+        }
+      }
+    }
+  }
+  
