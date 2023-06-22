@@ -21,4 +21,11 @@ export class ListadoComponent {
       this.productList=[...data];
     })
   }
+
+  deleteProduct(productId: any):void {
+    this.servicio.deleteProductById(productId).subscribe(() => {
+      this.productList = this.productList.filter(product => product.id!== productId);
+    })
+  }
+
 }
