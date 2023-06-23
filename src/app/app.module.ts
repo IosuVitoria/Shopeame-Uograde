@@ -12,6 +12,8 @@ import { DetalleComponent } from './pages/listado/detalle/detalle.component';
 import { NuevoProductoComponent } from './pages/nuevo-producto/nuevo-producto.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ModificarProductoComponent } from './pages/modificarproducto/modificarproducto.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -24,13 +26,14 @@ import { ModificarProductoComponent } from './pages/modificarproducto/modificarp
     ContactoComponent,
     DetalleComponent,
     NuevoProductoComponent,
-    ModificarProductoComponent
+    ModificarProductoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   exports: [
     NuevoProductoComponent

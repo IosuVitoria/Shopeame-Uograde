@@ -87,6 +87,16 @@
       "marca": "Gap",
       "imagen": "https://ejemplo.com/imagenes/sueter_gris.jpg",
       "enlace_amazon": "https://www.amazon.com/sueter-gris-gap"
+    },
+    {
+      "nombre": "Póster Goku",
+      "marca": "Bandai",
+      "tipo": "Póster",
+      "precio": 19.95,
+      "enlace_amazon": "",
+      "imagen": "https://th.bing.com/th/id/OIP.XCE-tXKZnKNbKEQr7STJhgHaLM?pid=ImgDet&rs=1",
+      "descripcion": "Póster de Goku Super Saiyan God. Batalla en el espacio contra Bills.",
+      "id": 17
     }
   ]
 }

@@ -5,13 +5,16 @@ import { ServiceComponent } from 'src/app/service/service.component';
 @Component({
   selector: 'app-listado',
   templateUrl: './listado.component.html',
-  styleUrls: ['./listado.component.scss']
+  styleUrls: ['./listado.component.scss'],
+  
 })
 
 
 export class ListadoComponent {
 
   productList: any[] = [];
+  nombreFilter: string = '';
+  marcaFilter: string = '';
 
   constructor (private servicio:ServiceComponent){}
 
