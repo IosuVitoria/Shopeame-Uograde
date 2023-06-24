@@ -1,3 +1,12 @@
+<div class="filters">
+  <input type="text" [(ngModel)]="nombreFilter" placeholder="Filtrar por nombre" class="filter-input">
+  <input type="text" [(ngModel)]="marcaFilter" placeholder="Filtrar por marca" class="filter-input">
+  <div class="button-container">
+    <button (click)="applyFilters()" class="filter-button">Aplicar filtros</button>
+    <button (click)="clearFilters()" class="filter-button">Borrar filtros</button>
+  </div>
+</div>
+
 <ul class="product-list">
   <li *ngFor="let product of productList">
     <div class="product-container">

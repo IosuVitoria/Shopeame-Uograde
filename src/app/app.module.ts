@@ -13,7 +13,7 @@ import { NuevoProductoComponent } from './pages/nuevo-producto/nuevo-producto.co
 import { ReactiveFormsModule } from '@angular/forms';
 import { ModificarProductoComponent } from './pages/modificarproducto/modificarproducto.component';
 import { FormsModule } from '@angular/forms';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -26,14 +26,15 @@ import { FormsModule } from '@angular/forms';
     ContactoComponent,
     DetalleComponent,
     NuevoProductoComponent,
-    ModificarProductoComponent,
+    ModificarProductoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   exports: [
     NuevoProductoComponent
