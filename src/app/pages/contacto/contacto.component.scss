@@ -1,30 +1,42 @@
+*{
+ font-family: 'Roboto', sans-serif;
+}
+
 .contact-element {
     background-image: url(../../../assets/fondoformulario.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh; /* Aumentamos la altura del contenedor */
+    height: 120vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin: 10px 0;
-  
+    margin: 5px 0;
+
     h2 {
       text-align: center;
       font-size: 24px;
+      margin: 0 auto;
       margin-bottom: 20px;
-      background-color: white; /* Fondo blanco */
+      background-color: rgba(255, 255, 255, 0.592);
       padding: 10px;
       border-radius: 5px;
+      width: 50%;
     }
   
     p {
       text-align: center;
       margin-bottom: 20px;
-      background-color: white; /* Fondo blanco */
+      // background-color: rgba(255, 255, 255, 0.543); 
       padding: 10px;
+      border-radius: 5px;
+    }
+
+    h4{
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.592);
       border-radius: 5px;
     }
   
@@ -33,10 +45,11 @@
       flex-direction: column;
       align-items: center;
       margin-bottom: 20px;
+      background-color: rgba(255, 255, 255, 0.783);
+      border-radius: 20px;
   
       p {
-        margin-bottom: 10px;
-        background-color: white; /* Fondo blanco */
+        margin-bottom: 10px; 
         padding: 10px;
         border-radius: 5px;
       }
@@ -49,7 +62,6 @@
     h3 {
       text-align: center;
       margin-bottom: 10px;
-      background-color: white; /* Fondo blanco */
       padding: 10px;
       border-radius: 5px;
     }
@@ -59,7 +71,7 @@
       width: 45%;
       margin: 0 auto;
       padding: 20px;
-      background-color: white; /* Fondo blanco */
+      background-color: rgba(255, 255, 255, 0.592); 
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
@@ -68,19 +80,23 @@
         font-size: 16px;
         font-weight: bold;
         margin-bottom: 5px;
+        margin-top: 5px;
       }
   
       input,
       textarea {
-        width: 100%;
+        width: 97%;
         padding: 8px;
         font-size: 14px;
-        border: 1px solid #ccc;
+        border: 1px solid #cccccce0;
         border-radius: 5px;
       }
   
       textarea {
         resize: vertical;
+        margin-bottom: 10px;
+        padding: 30px 0px;
+        width: 100%;
       }
   
       button {
@@ -96,11 +112,39 @@
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
+        
   
         &:hover {
           background-color: #005599;
+          cursor: pointer;
         }
       }
     }
   }
-  
+
+
+  p{
+    background-color: none;
+  }
+
+  .lenguages__select{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    margin: 0 auto;
+    gap: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    button{
+      border:none;
+      background-color: transparent;
+
+      .lenguages__img{
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+      }
+    }
+
+  }

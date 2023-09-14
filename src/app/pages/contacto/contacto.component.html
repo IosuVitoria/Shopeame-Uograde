@@ -1,27 +1,34 @@
 <div class="contact-element">
-    <h2>Contacto</h2>
-    <p>Para consultas relacionadas con el servicio técnico, contáctenos a través de los siguientes medios:</p>
+  <header>
+    <h2>{{ 'contact.header' | translate }}</h2>
+    <h4>{{ 'contact.subtitle' | translate }}</h4>
+  </header>
   
-    <div class="contact-info">
-      <p><strong>Teléfono:</strong> 945 872515 </p>
-      <p><strong>Correo electrónico:</strong> support_shop@gmail.com</p>
-      <p><strong>Horario de atención:</strong> Lunes a viernes, de 9:00 a.m. a 5:00 p.m.</p>
-      <img src="../../../assets/Shopping cart_Isometric.svg" alt="Contacto" width="200">
-    </div>
-  
-    <h3>Envíe un correo electrónico</h3>
-  
-    <form id="contactForm" action="mailto:support_shop@gmail.com" method="post" enctype="text/plain">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-  
-      <label for="correo">Correo electrónico:</label>
-      <input type="email" id="correo" name="correo" required>
-  
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" required></textarea>
-  
-      <button type="submit">Enviar</button>
-    </form>
+  <div class="lenguages__select">
+    <button (click)="setLanguage('es')"><img src="../../../assets/españa.jpg" alt="españa" class="lenguages__img"></button>
+    <button (click)="setLanguage('en')"><img src="../../../assets/inglaterra.jpg" alt="inglaterra" class="lenguages__img"></button>
   </div>
   
+  <div class="contact-info">
+    <p><strong>{{ 'contact.phone' | translate }}</strong> 945 872515</p>
+    <p><strong>{{ 'contact.email' | translate }}</strong> support_shop@gmail.com</p>
+    <p><strong>{{ 'contact.hours' | translate }}</strong> Lunes a viernes, de 9:00 a.m. a 5:00 p.m.</p>
+    <img src="../../../assets/Shopping cart_Isometric.svg" alt="{{ 'contact.header' | translate }}" width="200">
+  </div>
+
+  <h4>{{ 'contact.emailForm' | translate }}</h4>
+
+  <form class="contact-form" (submit)="sendEmail($event)">
+    <label for="nombre">{{ 'contact.nameLabel' | translate }}</label>
+    <input type="text" id="nombre" name="from_name" required>
+
+    <label for="correo">{{ 'contact.emailLabel' | translate }}</label>
+    <input type="email" id="correo" name="email_id" required>
+
+    <label for="mensaje">{{ 'contact.messageLabel' | translate }}</label>
+    <textarea id="mensaje" name="message" required></textarea>
+
+    <button type="submit">{{ 'contact.sendButton' | translate }}</button>
+  </form>
+</div>
+

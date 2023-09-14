@@ -8,7 +8,7 @@
 </div>
 
 <ul class="product-list">
-  <li *ngFor="let product of productList">
+  <li *ngFor="let product of productList | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
     <div class="product-container">
       <img src="{{product.imagen}}" alt="{{product.marca}}">
       <div class="product-info">
@@ -25,3 +25,8 @@
     </div>
   </li>
 </ul>
+
+<div class="pagination-container">
+  <pagination-controls (pageChange)="pageChanged($event)" class="pagination" previousLabel="Anterior" nextLabel="Siguiente"></pagination-controls>
+  <button (click)="showAllProducts()" class="view-all-button">Ver todos</button>
+</div>

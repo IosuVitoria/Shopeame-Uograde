@@ -1,0 +1,13 @@
+{
+    "contact.header": "Contact",
+    "contact.subtitle": "For technical support inquiries, contact us through the following means:",
+    "contact.phone": "Phone:",
+    "contact.email": "Email:",
+    "contact.hours": "Business Hours:",
+    "contact.emailForm": "Send an Email",
+    "contact.nameLabel": "Name:",
+    "contact.emailLabel": "Email:",
+    "contact.messageLabel": "Message:",
+    "contact.sendButton": "Send"
+}
+  

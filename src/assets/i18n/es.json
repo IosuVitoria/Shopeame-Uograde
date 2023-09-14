@@ -1,0 +1,13 @@
+{
+    "contact.header": "Contacto",
+    "contact.subtitle": "Para consultas relacionadas con el servicio técnico, contáctenos a través de los siguientes medios:",
+    "contact.phone": "Teléfono:",
+    "contact.email": "Correo electrónico:",
+    "contact.hours": "Horario de atención:",
+    "contact.emailForm": "Envíe un correo electrónico",
+    "contact.nameLabel": "Nombre:",
+    "contact.emailLabel": "Correo electrónico:",
+    "contact.messageLabel": "Mensaje:",
+    "contact.sendButton": "Enviar"
+}
+  

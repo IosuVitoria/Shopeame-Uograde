@@ -24,6 +24,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 10px;
+  gap: 15px;
 
   a {
     display: flex;
@@ -34,16 +35,52 @@ footer {
     font-size: 14px;
     transition: color 0.3s;
 
-    i {
-      margin-right: 5px;
+    .icon {
+      margin-right: 10px;
     }
   }
 
-  a:hover {
-    color: #00aaff;
+  //Estilos hover para iconos redes sociales.
+
+  .a__facebook:hover{
+    color:rgb(12, 12, 82);
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: underline;
+    transform: translateY(-5px);
+  }
+  .a__instagram:hover{
+    color:rgb(199, 52, 219);
+    transform: scale(1.1);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transform: translateY(-5px);
+  }
+  .a__youtube:hover{
+    color:rgb(211, 12, 12);
+    transform: scale(1.1);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transform: translateY(-5px);
+  }
+  .a__tiktok:hover{
+    color:rgb(0, 0, 6);
+    transform: scale(1.1);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    text-decoration: underline;
+    transform: translateY(-5px);
   }
 }
 
 .contact-info, .copyright {
   margin-bottom: 10px;
 }
+

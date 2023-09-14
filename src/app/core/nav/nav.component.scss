@@ -33,11 +33,10 @@ nav {
       padding: 8px;
 
       &:hover {
-        background-color: #083055;
+        background: linear-gradient(to right, #2a6cae, #333a41);
       }
 
       &:focus {
-        background-color: #08305596;
         transform: scale(1.1);
         outline: none;
       }

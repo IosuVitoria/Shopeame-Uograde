@@ -11,9 +11,14 @@ export class ServiceComponent {
 
   constructor (private http: HttpClient) {}
 
-  getProducts(){
-    return this.http.get(this.db_url)
+  getProducts(page: number, itemsPerPage: number) {
+    const startIndex = (page - 1) * itemsPerPage;
+    return this.http.get(`${this.db_url}?_start=${startIndex}&_limit=${itemsPerPage}`);
   }
+
+  
+  getAllProducts() {
+    return this.http.get(this.db_url); }
 
   getProductsById(id: number){
     return this.http.get(`${this.db_url}/${id}`)
@@ -26,6 +31,5 @@ export class ServiceComponent {
   postProduct(product: any){
     return this.http.post(this.db_url, product)
   }
-  
 
 }
